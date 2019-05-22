@@ -3,7 +3,7 @@ import inspect
 
 class Serializable(object):
 
-    def __initialize(self, locals_):
+    def initialize(self, locals_):
         if getattr(self, "_Serializable__initialized", False):
             return
 
